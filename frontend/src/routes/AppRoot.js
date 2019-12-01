@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Router, Route, Switch } from "react-router-dom";
 import MainPage from '../components/MainPage';
 import {history} from '../index'

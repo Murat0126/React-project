@@ -1,13 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 
-class MainPage extends Component {
-    render() {
-        return (
-            <div>
-                <h1>My React App!</h1>
-            </div>
-        );
-    }
+function MainPage(){
+    console.log(process.env.APP_HOST)
+    return (
+        <div>
+            <h1>My React App!</h1>
+        </div>
+    );
 }
 
 export default MainPage;
